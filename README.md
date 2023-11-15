@@ -1,40 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Description
+L'application est construite avec Next.js et utilise la bibliothèque Wagmi pour faciliter l'interaction avec des connexions Ethereum, la gestion de comptes, et d'autres fonctionnalités liées à la blockchain.
 
-## Getting Started
+Fonctionnalités
+Connexion aux Portefeuilles : Intégrez divers connecteurs tels que MetaMask pour permettre aux utilisateurs de se connecter à leur portefeuille Ethereum.
 
-First, run the development server:
+Gestion des Comptes : Visualisez les informations du compte, le solde Ethereum, et le nom ENS associé.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Interactions avec la Blockchain : Obtenez les soldes de tokens pour une adresse de portefeuille spécifiée, envoyez des transactions Ethereum, et plus encore.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Bien sûr, voici une proposition de résumé que vous pourriez utiliser dans le fichier README.md de votre application Next.js sur GitHub :
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Nom de Votre Application
+Description
+Votre application est construite avec Next.js et utilise la bibliothèque Wagmi pour faciliter l'interaction avec des connexions Ethereum, la gestion de comptes, et d'autres fonctionnalités liées à la blockchain.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Fonctionnalités
+Connexion aux Portefeuilles : Intégrez divers connecteurs tels que MetaMask pour permettre aux utilisateurs de se connecter à leur portefeuille Ethereum.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Gestion des Comptes : Visualisez les informations du compte, le solde Ethereum, et le nom ENS associé.
 
-## Learn More
+Interactions avec la Blockchain : Obtenez les soldes de tokens pour une adresse de portefeuille spécifiée, envoyez des transactions Ethereum, et plus encore.
 
-To learn more about Next.js, take a look at the following resources:
+Technologies Utilisées
+Next.js
+Wagmi
+Moralis
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Configuration
+Clonez ce dépôt.
+Installez les dépendances avec npm install.
+Configurez les clés d'API nécessaires dans les fichiers d'environnement.
+Exécutez l'application avec npm run dev.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
